@@ -1,0 +1,45 @@
+===================================================================================================================================
+   						  RG Projekat - The Mill™
+   						 by: Damir Bojadžiæ 17279
+===================================================================================================================================
+Zarobljeni ste u mlinu i pokušavate pobjeæi. Igrica je sastavljena iz 3 nivoa:
+
+- Prizemlje  - Maze level - Igraè se nalazi pored vrata ispred kojih su se upravo obrušile kutije i džakovi koji su spremni
+	       za transport - kao što inaèe stoje u prizemlju nekog mlina. Ali ovi džakovi i kutije formiraju jedinstven
+	       lavirint kroz koji igraè mora da proðe u potrazi za kljuèem koji æe mu otkljuèati naredni nivo.
+- Trup       - Ovaj nivo predstavlja srednji dio mlina - i kao u pravim mlinovima on je jako visok i u njemu se nalaze dva
+	       mlinska kamena koji melju žito. Ali kljuè se nalazi u gornjoj posudi iz koje izlazi žito te je van dometa 
+               igraèa. Igraè mora da skaèe sa kutije na kutiju da bi došao do kljuèa prije nego ga mlin samelje.
+- Potkrovlje - U potkrovlju možemo da vidimo ogromnu mašineriju i mehanizme koji pokreæu dva mlinska kamena sa prethodnog nivoa
+	       Kroz prozor vidimo i samu vjetrenjaèu kako se okreæe i njenu pogonsku osovinu. U prostoriji se nalaze æupovi
+	       koje igraè mora da lomi da bi našao kljuè.
+
+Od funkcionalnosti su implementirane:
+
+- Raycast 20% (Korišten prilikom kupljenja kljuèa)
+- Trigger 20% (Korišten za pokretanje jumpscare zvuka i za dodavanja elementa jezivosti i iznenaðenja)
+- Click   10% (Koristi se prilikom lomljenja æupova na treæem nivou, a koristi se i za kupljenje kljuèeva kao GetMouseButtonDown)
+- Promjena transform-a objekta 10% (Koristi se prilikom rotacije mlinskog kamena, vjetrenjaèe i mehanizma te vjetrenjaèe na MainMenu)
+- Korištenje lerpa 10% (Koristi se za ubrzavanje mehanizma kada se igrica završi)
+- Custom first person kontroler 20% (FPS kontroler u sebi sadrži model baterije i point light koji trebaju da simuliraju bateriju
+	za navigaciju kroz mrak)
+- Enable/disable objekta 10% (Pritiskom na dugme F baterija iz prethodne stavke se može paliti i gasiti)
+- Reproduciranje i stopiranje audio klipa 10% (Skoro svaka scena iz igrice ima zvuk koji je prati i doprinosi jezivom ambijentu 
+	igrice. Jumpscare je realiziran preko paljenja zvuka. Iako u igrici ne postoji direktno stopiranje audio klipa postoji
+	njegovo ubrzavanje u sceni nakon što se igrica završi)
+
+TOTAL: 110%
+
+Pored navedenih funkcionalnosti - postoji i highscore dugme koje prikazuje vremena u kojima je odreðeni nivo završen, postoji dugme
+za nastavljanje od nivoa na kom je igraè zadnje igrao te help prozor koji igraèu pokazuje koje se komande koriste za igranje.
+
+Hint: Kada tek poènete igricu nalazite se u totalnom mraku te trebate upaliti bateriju pritiskom na dugme F
+
+Možete pogledati kompletan playthrough igrice na narednom YouTube linku:
+https://youtu.be/OqtYWfknssg
+
+Isti klip se nalazi u prilogu projekta pod nazivom Gameplay 4 minutes, ali je priložena i verzija do 2 minute pod nazivom
+Gameplay 2 minutes.
+
+
+
